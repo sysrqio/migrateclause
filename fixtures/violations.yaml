@@ -1,0 +1,12 @@
+contract_id: legacy-saas-lock-in
+provider: LockIn Cloud AG
+switching:
+  max_notice_period_days: 180
+  max_transition_period_days: 90
+  min_data_retrieval_days: 7
+  specifies_exportable_data_schedule: false
+  includes_termination_assistance: false
+  prohibits_switching_fees_after_2027: false
+  allows_cost_based_switching_fees_now: true
+interoperability:
+  open_interfaces_for_saas: false

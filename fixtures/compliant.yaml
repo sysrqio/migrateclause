@@ -1,0 +1,14 @@
+contract_id: demo-gcp-msa-2026
+provider: Example Cloud GmbH
+customer: Acme Retail SE
+assessed_at: "2026-10-13T06:00:00Z"
+switching:
+  max_notice_period_days: 60
+  max_transition_period_days: 30
+  min_data_retrieval_days: 30
+  specifies_exportable_data_schedule: true
+  includes_termination_assistance: true
+  prohibits_switching_fees_after_2027: true
+  allows_cost_based_switching_fees_now: true
+interoperability:
+  open_interfaces_for_saas: true
